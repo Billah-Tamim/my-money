@@ -55,6 +55,8 @@ document.getElementById('save-button').addEventListener('click', function(){
 
         if(saving> balanceBoxValue){
             warning.style.display = 'block';
+            savingBox.innerText = 0;
+            remainingBox.innerText = 0;
         }
         else{
             savingBox.innerText = saving;
