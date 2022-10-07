@@ -1,0 +1,40 @@
+header> h1{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(254, 20, 8);
+    font-family: 'Rubik Dirt', cursive;
+    margin-bottom: 30px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    height: 600px;
+    width: 500px;
+}
+.item{
+    margin-bottom: 20px;
+}
+.item > p{
+    margin: 0;
+    color: rgb(72, 72, 113);
+    
+}
+.caption{
+    text-align: center;
+    margin-bottom: 20px;
+    color: brown;
+}
+.save-money{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
+.save-money> p{
+    margin-bottom: 0;
+}
+.show{
+    display: none;
+    color: red;
+}
