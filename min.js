@@ -1,6 +1,7 @@
 
 
 document.getElementById('calculate').addEventListener('click',function(){
+    
     const income = document.getElementById('income');
     let incomeValue =  parseFloat(income.value);
     const food = document.getElementById('food');
